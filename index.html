@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Task list</title>
+</head>
+<body>
+    
+    <main class="w-full h-full bg-slate-50 flex justify-center items-center">
+        <section class="border bg-white w-[400] rounded-md shadow-sm p-4">
+            <h1 class="border-b py-2 font-medium">Task List</h1>
+            <span class="mt-4 text-slate-400 text-sm block mb-1">Enter your task</span>
+            <div class="flex">
+                <input type="text" id="inputText" class="border p-1 mr-2 w-full rounded-md">
+                <button id="addBtn" class="text-white bg-blue-600 py-1 px-3 rounded-md">Add</button>
+            </div>
+            <span class="mt-4 text-slate-400 text-sm block mb-1">All tasks</span>
+            <ol id="taskLists">
+            </ol>
+        </section>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
